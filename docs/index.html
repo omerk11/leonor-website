@@ -262,11 +262,11 @@
             }
 
             // 1. Render Header
-            const brandEl = document.getElementById('nav-brand');
-            brandEl.innerHTML = `
-                <img src="${siteData.brand.logo}" alt="${siteData.brand.nameEn} Logo" width="48" height="48" class="h-10 md:h-12 w-auto object-contain" />
-                <span class="text-xl font-semibold tracking-tight text-on-background font-headline hidden sm:block">${siteData.brand.nameEn}</span>
-            `;
+const brandEl = document.getElementById('nav-brand');
+brandEl.innerHTML = `
+    <img src="${siteData.brand.logo}" alt="${siteData.brand.nameEn} Logo" width="48" height="48" class="h-9 md:h-12 w-auto object-contain" />
+    <span class="text-lg md:text-xl font-semibold tracking-tight text-on-background font-headline">${siteData.brand.nameEn}</span>
+`;
 
             const navLinksEl = document.getElementById('nav-links');
             navLinksEl.innerHTML = siteData.nav.map((link, idx) => `
