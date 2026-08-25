@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     
     <!-- Primary Meta Tags -->
-    <title>לאונור בייסרמן | פסיכולוגית חינוכית מומחית, הדרכה וטיפול בכפר סבא ואונליין</title>
+    <title>לאונור בייסרמן | פסיכולוגית חינוכית מומחית, הדרכה וטיפול</title>
     <meta name="title" content="לאונור בייסרמן | פסיכולוגית חינוכית מומחית, הדרכה וטיפול בכפר סבא ואונליין"/>
     <meta name="description" content="לאונור בייסרמן – פסיכולוגית חינוכית מומחית, מדריכה ופסיכותרפיסטית בעלת מעל 30 שנות ניסיון. טיפול פסיכולוגי בילדים, נוער ומבוגרים, הדרכת הורים ואנשי טיפול. קליניקה בכפר סבא ואונליין."/>
     <meta name="keywords" content="פסיכולוגית חינוכית, טיפול פסיכולוגי כפר סבא, פסיכותרפיה, הדרכת הורים, טיפול CBT, הדרכת פסיכולוגים, לאונור בייסרמן"/>
@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://leonorbeiserman.co.il/"/>
     <meta property="og:title" content="לאונור בייסרמן | פסיכולוגית חינוכית מומחית, הדרכה וטיפול"/>
     <meta property="og:description" content="טיפול פסיכולוגי במבוגרים, בני נוער וילדים, הדרכת הורים והדרכת אנשי טיפול. קליניקה בכפר סבא ואפשרות לטיפולי אונליין."/>
-    <meta property="og:image" content="2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg"/>
+    <meta property="og:image" content="https://leonorbeiserman.co.il/2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg"/>
     <meta property="og:locale" content="he_IL"/>
 
     <!-- Twitter -->
@@ -26,7 +26,7 @@
     <meta property="twitter:url" content="https://leonorbeiserman.co.il/"/>
     <meta property="twitter:title" content="לאונור בייסרמן | פסיכולוגית חינוכית מומחית, הדרכה וטיפול"/>
     <meta property="twitter:description" content="טיפול פסיכולוגי במבוגרים, בני נוער וילדים, הדרכת הורים והדרכת אנשי טיפול. קליניקה בכפר סבא ואפשרות לטיפולי אונליין."/>
-    <meta property="twitter:image" content="2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg"/>
+    <meta property="twitter:image" content="https://leonorbeiserman.co.il/2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg"/>
 
     <!-- Structured Data (Schema.org JSON-LD) -->
     <script type="application/ld+json">
@@ -35,8 +35,8 @@
       "@type": "PsychologicalService",
       "name": "לאונור בייסרמן - קליניקה לפסיכולוגיה ופסיכותרפיה",
       "alternateName": "Leonor Beiserman Educational Psychology Practice",
-      "image": "2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg",
-      "logo": "logo.png",
+      "image": "https://leonorbeiserman.co.il/2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg",
+      "logo": "https://leonorbeiserman.co.il/logo.png",
       "url": "https://leonorbeiserman.co.il/",
       "telephone": "+972-54-2211361",
       "email": "leonorcb2@gmail.com",
@@ -184,82 +184,31 @@
 </head>
 <body class="bg-background text-on-surface antialiased">
     
+    <!-- Header / Navigation -->
     <header class="fixed top-0 w-full z-50 glass-nav shadow-ambient-nav transition-all duration-300">
-        <nav class="flex justify-center md:justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto flex-row-reverse" aria-label="ניווט ראשי">
-            <div class="flex items-center gap-3 ltr" dir="ltr">
-                <img src="logo.png" alt="Leonor Beiserman Logo" width="48" height="48" class="h-10 md:h-12 w-auto object-contain" />
-                <span class="text-xl font-semibold tracking-tight text-on-background font-headline">Leonor Beiserman</span>
-            </div>
-            
-            <div class="hidden md:flex gap-8 items-center text-[15px]">
-                <a class="nav-link text-primary font-semibold border-b-2 border-primary pb-1 transition-colors duration-300" href="#home">דף הבית</a>
-                <a class="nav-link text-on-surface-variant font-medium border-b-2 border-transparent hover:text-primary pb-1 transition-colors duration-300" href="#about">אודות</a>
-                <a class="nav-link text-on-surface-variant font-medium border-b-2 border-transparent hover:text-primary pb-1 transition-colors duration-300" href="#services">תחומי טיפול</a>
-                <a class="nav-link text-on-surface-variant font-medium border-b-2 border-transparent hover:text-primary pb-1 transition-colors duration-300" href="#clinic">צור קשר</a>
-            </div>
+        <nav class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto flex-row-reverse" aria-label="ניווט ראשי">
+            <div id="nav-brand" class="flex items-center gap-3 ltr" dir="ltr"></div>
+            <div id="nav-links" class="hidden md:flex gap-8 items-center text-[15px]"></div>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
         <section id="home" class="relative min-h-[750px] flex flex-col items-center justify-center overflow-hidden px-6 md:px-8 pt-32 pb-24 bg-gradient-to-b from-surface-variant to-background">
-            <div class="max-w-[900px] mx-auto w-full z-10 text-center flex flex-col items-center mt-8">
-                <span class="text-primary-dim font-bold tracking-[0.2em] text-sm uppercase mb-6 block">פסיכולוגית חינוכית מומחית, מדריכה ופסיכותרפיסטית</span>
-                
-                <h1 class="text-[2.2rem] md:text-[3.2rem] font-medium text-on-background tracking-tight leading-[1.2] mb-8">
-                    לאונור בייסרמן
-                </h1>
-                
-                <div class="text-[1rem] md:text-[1.1rem] text-on-surface-variant leading-[1.8] mb-12 font-medium max-w-[800px] mx-auto">
-                    <blockquote class="mb-6 italic text-primary text-lg">
-                        "There is a crack in everything, that’s how the light gets in" <br/>
-                        "בכל דבר יש סדק, כך האור נכנס" <br/>
-                        <cite class="text-sm font-normal not-italic block mt-1">לאונרד כהן, "Anthem"</cite>
-                    </blockquote>
-                    <p>
-                        מעל שלושים שנה אני עוסקת בטיפול במבוגרים, בני נוער, ילדים והורים, ומדריכה אנשי טיפול. אני מאמינה שטיפול הוא קודם כל מפגש אנושי אמיתי ומשמעותי המאפשר בתוך מרחב בטוח לעצור, להתבונן וליצור שינוי בדרך לחיים מלאים ומספקים יותר.
-                    </p>
-                </div>
-                
-                <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-5 w-full max-w-lg mx-auto">
-                    <a href="#about" class="w-full sm:flex-1 flex items-center justify-center bg-primary-container text-on-primary-container px-6 py-4 sm:py-3.5 rounded-[0.5rem] font-bold text-[15px] hover:opacity-90 transition-all text-center">
-                        הכירו אותי
-                    </a>
-                    <a href="#services" class="w-full sm:flex-1 flex items-center justify-center bg-primary-mid text-on-primary px-6 py-4 sm:py-3.5 rounded-[0.5rem] font-bold text-[15px] hover:opacity-90 transition-all shadow-ambient text-center">
-                        תחומי טיפול
-                    </a>
-                </div>
-            </div>
+            <div id="hero-container" class="max-w-[900px] mx-auto w-full z-10 text-center flex flex-col items-center mt-8"></div>
         </section>
 
         <!-- About Section -->
         <section id="about" class="scroll-mt-24 py-24 md:py-32 px-6 md:px-8 bg-surface-container-low">
             <div class="max-w-7xl mx-auto">
                 <div class="mb-16 md:mb-20 text-right">
-                    <h2 class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5">אודות</h2>
+                    <h2 id="about-title" class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5"></h2>
                     <div class="h-1 w-16 bg-primary-dim rounded-full mr-0"></div>
                 </div>
                 
                 <div class="bg-surface-container-lowest p-8 md:p-12 rounded-lg shadow-ambient flex flex-col md:flex-row gap-8 lg:gap-12 items-stretch">
-                    
-                    <div class="relative w-full max-w-[380px] mx-auto md:max-w-none md:w-5/12 lg:w-1/3 shrink-0 rounded-2xl border-[6px] border-white shadow-xl overflow-hidden min-h-[400px] md:min-h-0 bg-surface-container-low">
-                        <img src="2bd302f4-f1d1-4d20-9795-c1244e3f3844.jpg" alt="לאונור בייסרמן - פסיכולוגית חינוכית מומחית" width="400" height="500" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover object-[center_25%] transition-transform duration-700 hover:scale-[1.03]" />
-                    </div>
-
-                    <div class="w-full md:w-2/3 text-[1rem] md:text-[1.05rem] text-on-surface-variant leading-[1.8] space-y-5 text-right py-2 flex flex-col justify-center">
-                        <p>
-                            שמי לאונור, אני פסיכולוגית חינוכית מומחית ומדריכה, ופסיכותרפיסטית, בוגרת התוכנית לפסיכותרפיה פסיכואנליטית והתוכנית ל-CBT אינטגרטיבי באוניברסיטת חיפה.
-                        </p>
-                        <p>
-                            מעל שלושים שנה אני עוסקת בטיפול במבוגרים, בני נוער, ילדים והורים, ומדריכה פסיכולוגים ואנשי טיפול מדיסציפלינות שונות.
-                        </p>
-                        <p>
-                            אני מאמינה שטיפול הוא קודם כל מפגש אנושי אמיתי ומשמעותי. בתוך מרחב בטוח, מכבד ומקבל נוצרת האפשרות לעצור, להתבונן, להבין את עצמנו טוב יותר וליצור שינוי. הקשר הטיפולי מאפשר חקירה, צמיחה והתפתחות אישית, ומסייע בהתמודדות עם אתגרי החיים בדרך לחיים מלאים, מאוזנים ומספקים יותר. מעבר להתמודדות עם הקשיים, אני מאמינה שטיפול יכול להיות גם מרחב של צמיחה אישית.
-                        </p>
-                        <p>
-                            אני רואה בכל מטופל אדם בעל מאפיינים ייחודיים, הדורשים התאמה מדויקת של הטיפול. לכן אני משלבת בין גישות שונות: גישה דינמית, גישה מערכתית, טכניקות מעולם הטיפול הקוגניטיבי-התנהגותי (CBT), הגל השלישי ACT, DBT, Mindfulness - IPT וסכמה תרפיה. הבחירה בגישה הטיפולית נעשית בשקיפות ובהתאמה אישית לצורכי האדם שמולי, בהתאם לסיבת הפנייה ולמטרות הטיפול.
-                        </p>
-                    </div>
+                    <div id="about-image-container" class="relative w-full max-w-[380px] mx-auto md:max-w-none md:w-5/12 lg:w-1/3 shrink-0 rounded-2xl border-[6px] border-white shadow-xl overflow-hidden min-h-[400px] md:min-h-0 bg-surface-container-low"></div>
+                    <div id="about-text-container" class="w-full md:w-2/3 text-[1rem] md:text-[1.05rem] text-on-surface-variant leading-[1.8] space-y-5 text-right py-2 flex flex-col justify-center"></div>
                 </div>
             </div>
         </section>
@@ -268,52 +217,15 @@
         <section id="services" class="scroll-mt-24 py-24 md:py-32 bg-background px-6 md:px-8">
             <div class="max-w-7xl mx-auto">
                 <div class="mb-16 md:mb-20 text-right">
-                    <h2 class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5">תחומי טיפול והתמחות</h2>
+                    <h2 id="services-title" class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5"></h2>
                     <div class="h-1 w-20 bg-primary-dim rounded-full mr-0"></div>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 items-stretch">
-                    <article class="bg-surface-container-lowest p-8 md:p-10 rounded-lg shadow-ambient group flex flex-col items-center text-center h-full">
-                        <div class="w-[52px] h-[52px] bg-primary-container flex items-center justify-center rounded-full mb-8 text-on-primary-container transition-transform group-hover:scale-105 shrink-0" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[26px]">psychology</span>
-                        </div>
-                        <h3 class="text-[1.25rem] md:text-[1.35rem] font-bold mb-4 text-on-surface">טיפול פסיכולוגי בילדים, נוער ומבוגרים</h3>
-                        <p class="text-on-surface-variant leading-[1.7] text-[15px] flex-1">מרחב בטוח, מכבד ומקבל המאפשר חקירה, צמיחה והתפתחות אישית, ומסייע בהתמודדות עם אתגרי החיים בדרך לחיים מאוזנים ומספקים יותר.</p>
-                    </article>
-                    
-                    <article class="bg-surface-container-lowest p-8 md:p-10 rounded-lg shadow-ambient group flex flex-col items-center text-center h-full">
-                        <div class="w-[52px] h-[52px] bg-primary-container flex items-center justify-center rounded-full mb-8 text-on-primary-container transition-transform group-hover:scale-105 shrink-0" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[26px]">family_restroom</span>
-                        </div>
-                        <h3 class="text-[1.25rem] md:text-[1.35rem] font-bold mb-4 text-on-surface">הדרכת הורים, טיפול בהורות וטיפול זוגי</h3>
-                        <p class="text-on-surface-variant leading-[1.7] text-[15px] flex-1">ליווי, הדרכה וטיפול ממוקד סביב אתגרי המשפחה תוך יצירת מרחב בטוח לתקשורת מקרבת המאפשרת שינוי וצמיחה משותפת. התהליך מתמקד בשיפור וחיזוק היחסים שבתוך המשפחה.</p>
-                    </article>
-                    
-                    <article class="bg-surface-container-lowest p-8 md:p-10 rounded-lg shadow-ambient group flex flex-col items-center text-center h-full">
-                        <div class="w-[52px] h-[52px] bg-primary-container flex items-center justify-center rounded-full mb-8 text-on-primary-container transition-transform group-hover:scale-105 shrink-0" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[26px]">diversity_3</span>
-                        </div>
-                        <h3 class="text-[1.25rem] md:text-[1.35rem] font-bold mb-4 text-on-surface">הדרכת אנשי טיפול</h3>
-                        <p class="text-on-surface-variant leading-[1.7] text-[15px] flex-1">הדרכת פסיכולוגים ואנשי טיפול מדיסציפלינות שונות וסיוע בהכנה למבחני התמחות. ההדרכה משלבת גישות טיפוליות מגוונות: דינמית, מערכתית, CBT, הגל השלישי, IPT וסכמה תרפיה.</p>
-                    </article>
-                </div>
+                <div id="services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 items-stretch"></div>
 
                 <div class="bg-surface-container-lowest p-8 rounded-lg shadow-ambient">
-                    <h3 class="text-xl font-bold mb-6 text-on-background text-center md:text-right">נושאי טיפול והתמודדות:</h3>
-                    <div class="flex flex-wrap gap-3 justify-center md:justify-start">
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">משברי חיים</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">הפרעות במצבי רוח</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">קשיים בוויסות רגשי</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">חרדות</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">קשיים ביחסים</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">טראומות ו-PTSD</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">אובדן</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">הפרעת קשב וריכוז</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">הגירה</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">הפרעות אכילה</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">פגיעות מיניות</span>
-                        <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">אובדנות ופגיעה עצמית</span>
-                    </div>
+                    <h3 id="tags-title" class="text-xl font-bold mb-6 text-on-background text-center md:text-right"></h3>
+                    <div id="tags-container" class="flex flex-wrap gap-3 justify-center md:justify-start"></div>
                 </div>
             </div>
         </section>
@@ -322,57 +234,114 @@
         <section id="clinic" class="scroll-mt-24 py-24 md:py-32 px-6 md:px-8 bg-surface-container-low">
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-16 md:mb-20 flex flex-col items-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5">מידע וקליניקה</h2>
+                    <h2 id="clinic-title" class="text-3xl md:text-4xl font-bold text-on-background tracking-tight mb-5"></h2>
                     <div class="h-1 w-16 bg-primary-dim rounded-full"></div>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto items-stretch">
-                    <div class="flex flex-col items-center text-center p-8 md:p-10 bg-surface-container-lowest rounded-lg shadow-ambient group h-full">
-                        <div class="w-14 h-14 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mb-6 transition-transform group-hover:scale-105" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[28px]">location_on</span>
-                        </div>
-                        <h3 class="font-bold text-xl mb-3 text-on-background">קליניקה ומיקום</h3>
-                        <p class="text-on-surface-variant text-[15px]">רוטשילד 46 כפר סבא, וכן קיימת אפשרות לטיפולי אונליין.</p>
-                    </div>
-                    
-                    <div class="flex flex-col items-center text-center p-8 md:p-10 bg-surface-container-lowest rounded-lg shadow-ambient group h-full">
-                        <div class="w-14 h-14 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mb-6 transition-transform group-hover:scale-105" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[28px]">verified</span>
-                        </div>
-                        <h3 class="font-bold text-xl mb-3 text-on-background">הסדרים ושפות</h3>
-                        <p class="text-on-surface-variant text-[15px]">רשומה כספקית במשרד הביטחון – אגף השיקום ואגף המשפחות.</p>
-                        <p class="text-on-surface-variant text-[15px] mt-2 font-semibold">שפות: עברית וספרדית</p>
-                    </div>
-                    
-                    <div class="flex flex-col items-center text-center p-8 md:p-10 bg-surface-container-lowest rounded-lg shadow-ambient group h-full">
-                        <div class="w-14 h-14 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mb-6 transition-transform group-hover:scale-105" aria-hidden="true">
-                            <span class="material-symbols-outlined text-[28px]">mail</span>
-                        </div>
-                        <h3 class="font-bold text-xl mb-3 text-on-background">יצירת קשר</h3>
-                        <p class="text-on-surface-variant text-[15px]">
-                            <a href="mailto:leonorcb2@gmail.com" class="hover:text-primary transition-colors underline decoration-transparent hover:decoration-primary">leonorcb2@gmail.com</a>
-                        </p>
-                        <p class="text-on-surface-variant text-[15px] mt-1" dir="ltr">
-                            <a href="tel:0542211361" class="hover:text-primary transition-colors">054-2211361</a>
-                        </p>
-                    </div>
-                </div>
+                <div id="clinic-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto items-stretch"></div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="w-full bg-background pt-16 pb-12 border-t border-surface-variant/40">
         <div class="max-w-7xl mx-auto px-6 md:px-8 w-full">
             <div class="flex flex-col md:flex-row justify-between items-center w-full gap-8 ltr" dir="ltr">
-                <div class="text-on-surface-variant text-[13px] font-manrope font-medium tracking-wide flex-1 text-center md:text-left order-3 md:order-1">
-                    Leonor Beiserman. Educational Psychology Practice. All rights reserved © 2026.
-                </div>
+                <div id="footer-text" class="text-on-surface-variant text-[13px] font-manrope font-medium tracking-wide flex-1 text-center md:text-left order-3 md:order-1"></div>
             </div>
         </div>
     </footer>
 
+    <!-- טעינת קובץ התוכן והרנדור -->
+    <script src="content.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            if (typeof siteData === 'undefined') {
+                console.error('siteData is not loaded. Please make sure content.js is in the same directory.');
+                return;
+            }
+
+            // 1. Render Header
+            const brandEl = document.getElementById('nav-brand');
+            brandEl.innerHTML = `
+                <img src="${siteData.brand.logo}" alt="${siteData.brand.nameEn} Logo" width="48" height="48" class="h-10 md:h-12 w-auto object-contain" />
+                <span class="text-xl font-semibold tracking-tight text-on-background font-headline hidden sm:block">${siteData.brand.nameEn}</span>
+            `;
+
+            const navLinksEl = document.getElementById('nav-links');
+            navLinksEl.innerHTML = siteData.nav.map((link, idx) => `
+                <a class="nav-link ${idx === 0 ? 'text-primary font-semibold border-primary' : 'text-on-surface-variant font-medium border-transparent'} border-b-2 hover:text-primary pb-1 transition-colors duration-300" href="${link.href}">${link.label}</a>
+            `).join('');
+
+            // 2. Render Hero
+            const heroEl = document.getElementById('hero-container');
+            heroEl.innerHTML = `
+                <span class="text-primary-dim font-bold tracking-[0.2em] text-sm uppercase mb-6 block">${siteData.hero.badge}</span>
+                <h1 class="text-[2.2rem] md:text-[3.2rem] font-medium text-on-background tracking-tight leading-[1.2] mb-8">${siteData.hero.title}</h1>
+                <div class="text-[1rem] md:text-[1.1rem] text-on-surface-variant leading-[1.8] mb-12 font-medium max-w-[800px] mx-auto">
+                    <blockquote class="mb-6 italic text-primary text-lg">
+                        ${siteData.hero.quoteText} <br/>
+                        <cite class="text-sm font-normal not-italic block mt-1">${siteData.hero.quoteAuthor}</cite>
+                    </blockquote>
+                    <p>${siteData.hero.intro}</p>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-5 w-full max-w-lg mx-auto">
+                    ${siteData.hero.buttons.map(btn => `
+                        <a href="${btn.href}" class="w-full sm:flex-1 flex items-center justify-center ${btn.style === 'primary-container' ? 'bg-primary-container text-on-primary-container' : 'bg-primary-mid text-on-primary shadow-ambient'} px-6 py-4 sm:py-3.5 rounded-[0.5rem] font-bold text-[15px] hover:opacity-90 transition-all text-center">
+                            ${btn.label}
+                        </a>
+                    `).join('')}
+                </div>
+            `;
+
+            // 3. Render About
+            document.getElementById('about-title').textContent = siteData.about.title;
+            document.getElementById('about-image-container').innerHTML = `
+                <img src="${siteData.about.image}" alt="${siteData.about.imageAlt}" width="400" height="500" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover object-[center_25%] transition-transform duration-700 hover:scale-[1.03]" />
+            `;
+            document.getElementById('about-text-container').innerHTML = siteData.about.paragraphs.map(p => `<p>${p}</p>`).join('');
+
+            // 4. Render Services
+            document.getElementById('services-title').textContent = siteData.servicesSection.title;
+            document.getElementById('services-grid').innerHTML = siteData.servicesSection.services.map(s => `
+                <article class="bg-surface-container-lowest p-8 md:p-10 rounded-lg shadow-ambient group flex flex-col items-center text-center h-full">
+                    <div class="w-[52px] h-[52px] bg-primary-container flex items-center justify-center rounded-full mb-8 text-on-primary-container transition-transform group-hover:scale-105 shrink-0" aria-hidden="true">
+                        <span class="material-symbols-outlined text-[26px]">${s.icon}</span>
+                    </div>
+                    <h3 class="text-[1.25rem] md:text-[1.35rem] font-bold mb-4 text-on-surface">${s.title}</h3>
+                    <p class="text-on-surface-variant leading-[1.7] text-[15px] flex-1">${s.desc}</p>
+                </article>
+            `).join('');
+
+            document.getElementById('tags-title').textContent = siteData.servicesSection.tagsTitle;
+            document.getElementById('tags-container').innerHTML = siteData.servicesSection.tags.map(t => `
+                <span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full text-[14px] font-medium">${t}</span>
+            `).join('');
+
+            // 5. Render Clinic / Contact
+            document.getElementById('clinic-title').textContent = siteData.clinic.title;
+            document.getElementById('clinic-grid').innerHTML = siteData.clinic.items.map(item => {
+                let bodyContent = '';
+                if (item.text) bodyContent += `<p class="text-on-surface-variant text-[15px]">${item.text}</p>`;
+                if (item.subText) bodyContent += `<p class="text-on-surface-variant text-[15px] mt-2 font-semibold">${item.subText}</p>`;
+                if (item.email) bodyContent += `<p class="text-on-surface-variant text-[15px]"><a href="mailto:${item.email}" class="hover:text-primary transition-colors underline decoration-transparent hover:decoration-primary">${item.email}</a></p>`;
+                if (item.phone) bodyContent += `<p class="text-on-surface-variant text-[15px] mt-1" dir="ltr"><a href="tel:${item.phone.replace(/[^0-9]/g, '')}" class="hover:text-primary transition-colors">${item.phone}</a></p>`;
+
+                return `
+                    <div class="flex flex-col items-center text-center p-8 md:p-10 bg-surface-container-lowest rounded-lg shadow-ambient group h-full">
+                        <div class="w-14 h-14 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mb-6 transition-transform group-hover:scale-105" aria-hidden="true">
+                            <span class="material-symbols-outlined text-[28px]">${item.icon}</span>
+                        </div>
+                        <h3 class="font-bold text-xl mb-3 text-on-background">${item.title}</h3>
+                        ${bodyContent}
+                    </div>
+                `;
+            }).join('');
+
+            // 6. Render Footer
+            document.getElementById('footer-text').textContent = siteData.footer.copyright;
+
+            // 7. ScrollSpy Observer
             const sections = document.querySelectorAll('main section');
             const navLinks = document.querySelectorAll('.nav-link');
 
@@ -386,15 +355,14 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         const currentId = entry.target.getAttribute('id');
-                        
                         navLinks.forEach(link => {
-                            link.classList.remove('text-primary', 'font-semibold', 'border-primary');
-                            link.classList.add('text-on-surface-variant', 'font-medium', 'border-transparent');
-                            
-                            if (link.getAttribute('href') === `#${currentId}`) {
-                                link.classList.add('text-primary', 'font-semibold', 'border-primary');
-                                link.classList.remove('text-on-surface-variant', 'font-medium', 'border-transparent');
-                            }
+                            const isMatch = link.getAttribute('href') === `#${currentId}`;
+                            link.classList.toggle('text-primary', isMatch);
+                            link.classList.toggle('font-semibold', isMatch);
+                            link.classList.toggle('border-primary', isMatch);
+                            link.classList.toggle('text-on-surface-variant', !isMatch);
+                            link.classList.toggle('font-medium', !isMatch);
+                            link.classList.toggle('border-transparent', !isMatch);
                         });
                     }
                 });
